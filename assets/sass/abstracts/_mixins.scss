@@ -1,0 +1,17 @@
+@mixin laptop_view {
+    @media (min-width: #{$laptop_view} ) {
+        @content;
+    }
+} 
+
+@mixin tablet_view {
+    @media only screen and (min-width: #{$tablet_view}) and (max-width: #{$laptop_view}) {
+        @content;
+    }
+}
+
+@mixin mobile_view {
+    @media only screen and (min-width: 0px) and (max-width: #{$tablet_view}) {
+        @content;
+    }
+}

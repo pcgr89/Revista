@@ -1,0 +1,29 @@
+.sidebar {
+    border-bottom: 1px solid gray;
+    &__list {
+        border-bottom: 1px solid gray;
+    }
+
+    &__tags {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                padding: 2px 4px;
+                background-color: steelblue;
+                margin-right: 1px;
+                color: white;
+                display: inline-block;
+            }
+        }
+    }
+
+    &__highlight {
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+        }
+    }
+}

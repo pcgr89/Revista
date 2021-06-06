@@ -1,0 +1,39 @@
+.navigation {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+
+    &__logo {
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: $x-large;
+        font-weight: $fs-bold;
+        padding: 0.5rem;
+        width: 20%;
+    }
+
+    &__links {
+        text-align: right;
+        float: right;
+        width: 80%;
+    }
+
+    &__link {
+        padding: 0 0.5rem;
+        display: inline;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+  @include mobile_view {
+      .navigation {
+        &__link {
+            text-align: right;
+            display: inline-block;
+        &--hide {
+            display: none;
+        }
+        }
+      }
+  }

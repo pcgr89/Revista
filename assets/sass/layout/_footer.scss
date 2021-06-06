@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background-color: $cotton;
+
+    &__text {
+        background-color: white;
+        padding: 0.5rem;
+    }
+
+    &__newsletter {
+        padding: 1rem 1rem 2rem 1rem;      
+    }
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.newsletter h2 {
+    font-size: 24px
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+}
